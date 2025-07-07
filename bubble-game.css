@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(145, 179, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#panel {
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+#ptop {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(8, 98, 8);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.elem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.elem h1{
+    color: aliceblue;
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: 200;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.elem .box{
+    padding: 5px 10px;
+    margin:  0px 10px;
+    font-size: 25px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+#pbottom {
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(8, 98, 8) ;
+    height: 40px;
+    width: 40px;
+    color: aliceblue;
+}
+
+#bubble:hover{
+    cursor: pointer;
+    background-color: rgb(11, 39, 3);
+}
